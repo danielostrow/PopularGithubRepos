@@ -44,5 +44,5 @@ def handle_user_input():
     language = language.strip() if language.strip() else 'java'
     get_popular_repos(organization, language)
 
-# Example usage
+
 handle_user_input()
