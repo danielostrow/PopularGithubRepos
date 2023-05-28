@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popular Repositories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Popular Repositories</h1>
+  <div class="search-container">
+    <input type="text" id="organization-input" placeholder="Enter organization name">
+    <input type="text" id="language-input" placeholder="Enter language (default: java)">
+    <button id="search-button">Search</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Owner</th>
+        <th>Repository</th>
+        <th>Created At</th>
+        <th>Stars</th>
+        <th>Forks</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>  
+      <!-- Table rows will be dynamically added here -->
+    </tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
