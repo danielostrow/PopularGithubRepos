@@ -16,9 +16,10 @@ def get_popular_repos(organization, language='java'):
     while True:
         params = {'page': page, 'per_page': per_page}
         response = requests.get(url, params=params)
-        
+         
         if response.status_code == 200:
             data = response.json()
+            # created if statement to fix issue with output when organization has multiple repositories
             if 'items' in data:
                 repos.extend(data['items'])
                 page += 1
