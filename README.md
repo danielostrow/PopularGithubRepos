@@ -2,6 +2,7 @@
 
 ## Console App
 - Shows basic logic on making a query with the GitHub API
+  - Run with `python3 APIrequest.py`
 
 
 ____________________________________________________________________________________
