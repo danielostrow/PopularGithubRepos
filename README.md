@@ -3,8 +3,10 @@
 ## Console App
 - Shows basic logic on making a query with the GitHub API
 
+
+
 ## WebApp
-## Search tool to list out an organizations repositories by language & popularity
+### Search tool to list out an organizations repositories by language & popularity
 - `backend.js`: This file contains the server-side code using Express.js to handle requests and serve the API endpoints.
 - `frontend/`
   - `index.html`: This file contains the HTML structure of the frontend user interface.
